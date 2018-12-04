@@ -54,11 +54,16 @@ max-width: 960px;
     border-bottom: 3px solid #cccccc;
 
 }
+.car-text{
+    padding-top: 23px;
+    font-size: 19px;
+}
 
 img#headshot {
     padding-right: 3%;
     padding-top: 3%;
     float: left;
+    max-width: 200px;
 }
 
 
