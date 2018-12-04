@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    background-image: url("../images/background1.jpg");
+    background-repeat:repeat-y repeat-x;
+}
+
+header {
+  background-color:#ffffff;
+  border-bottom: 5px solid #cccccc;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+ }
+
+ #box{
+  margin-top: 50px;
+ }
+.container {   
+max-width: 960px;
+margin: 0% auto;
+}
+
+
+li.titleName a.nav-link {
+    
+    float: left;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+    background-color: #4aaaa5;
+    color:#ffffff;  
+}
+
+.nav-link {
+    display:block;
+    float: right;
+    text-align:right;
+    padding: 25px; 
+    color: #777777;
+}
+
+.card-body {
+max-width: 960px;
+}
+
+.card-title {
+    font-size: 32px;
+    padding: 24px;
+    color: #4aaaa5;
+    border-bottom: 3px solid #cccccc;
+
+}
+
+img#headshot {
+    padding-right: 3%;
+    padding-top: 3%;
+    float: left;
+}
+
+
+.col-md-6 {
+    margin: 0% auto;
+    padding: 10px;
+}
+
+
+.card-img{
+    padding: 10px;
+    max-width: 270px;
+}
+#contactBox {
+    float: left;
+    margin: 20px;
+    
+  }
+
+textarea {
+    width: 100%;
+}
+
+
+p.card-text{
+    color: #ffffff;
+    background-color: #4aaaa5;
+    max-width: 250px;
+    margin-top: 190px;
+    text-align: center;
+    padding: 10px;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 8px 20px;
+    border: none;
+}
+.fixed-bottom {
+    text-align: center;
+    background-color: #666666;
+    border-top: 6px solid #4aaaa5;
+    padding-top: 55px;
+}
